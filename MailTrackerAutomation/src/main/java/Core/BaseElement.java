@@ -11,12 +11,12 @@ public  class BaseElement {
 	public SelectBy SourceIden1;
 	public String SourceStr;
 	
-	public WebElement findElement(String srcstring, String findElementType)
+	public WebElement findElement()
 	{
 		WebElement element = null;
-		if(findElementType == "id")
+		if(SourceIden1.toString() == "id")
 		{
-			element = driver.findElement(By.id(srcstring));
+			element = driver.findElement(By.id(SourceStr));
 		}
 		
 		return element;
