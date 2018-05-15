@@ -15,5 +15,6 @@ public class Lable extends BaseElement{
 	{
 		WebElement ele = findElement();
 		
+		
 	}
 }

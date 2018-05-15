@@ -1,20 +1,19 @@
 package stepDefinitions;
+import org.openqa.selenium.WebDriver;
 
-import org.junit.runner.RunWith;
-
+import Core.WebDriverFactory;
 import cucumber.api.CucumberOptions;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
-@RunWith(Cucumber.class)
-@CucumberOptions(features = "Feature")
+
 public class CustomerFeatureStepDefinition {
+	WebDriver driver = WebDriverFactory.InstantiateWebDriver();
 	@Given("^user is on customer administration page$")
 	public void user_is_on_customer_administration_page() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	    driver.navigate().to("https://google.com");
+	    
 	}
 
 	@When("^user click on Add New Button$")

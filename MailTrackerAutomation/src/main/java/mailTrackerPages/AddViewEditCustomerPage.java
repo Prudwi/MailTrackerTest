@@ -28,5 +28,6 @@ public class AddViewEditCustomerPage {
 		return this.customerNameTextBox = new TextBox(BaseElement.SelectBy.Name, "Customer Name Text box Locator");
 	}
 			
-			
+		//Navigate
+	
 }
