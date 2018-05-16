@@ -73,7 +73,7 @@
 					<version>2.18</version>
 					<configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>MailTrackerAutomation\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
 				</plugin>
