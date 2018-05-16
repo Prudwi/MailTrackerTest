@@ -21,7 +21,6 @@ import cucumber.api.testng.TestNGCucumberRunner;
 import cucumber.runtime.model.CucumberBackground;
 import cucumber.runtime.model.CucumberFeature;
 import cucumber.runtime.model.CucumberScenario;
-import stepDefinitions.TestRunner;
 
 
 public class WebDriverFactory {

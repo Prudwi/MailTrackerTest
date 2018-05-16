@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6064" started-at="2018-05-15T03:59:38Z" finished-at="2018-05-15T03:59:44Z">
+  <suite name="MailTracker Test Suite" duration-ms="6268" started-at="2018-05-16T00:58:29Z" finished-at="2018-05-16T00:58:35Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepDefinitions.TestRunner@3bfdc050]" name="feature" class="stepDefinitions.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Core.TestRunner@4dfa3a9d]" name="feature" class="Core.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="6064" started-at="2018-05-15T03:59:38Z" finished-at="2018-05-15T03:59:44Z">
-      <class name="stepDefinitions.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:stepDefinitions.TestRunner@3bfdc050]" name="setUpClass" is-config="true" duration-ms="260" started-at="2018-05-14T23:59:38Z" finished-at="2018-05-14T23:59:38Z">
+    <test name="Login and Update Profile Test" duration-ms="6268" started-at="2018-05-16T00:58:29Z" finished-at="2018-05-16T00:58:35Z">
+      <class name="Core.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Core.TestRunner@4dfa3a9d]" name="setUpClass" is-config="true" duration-ms="258" started-at="2018-05-15T20:58:29Z" finished-at="2018-05-15T20:58:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepDefinitions.TestRunner@3bfdc050]" name="feature" duration-ms="5621" started-at="2018-05-14T23:59:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-14T23:59:44Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Core.TestRunner@4dfa3a9d]" name="feature" duration-ms="5669" started-at="2018-05-15T20:58:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-15T20:58:35Z">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:stepDefinitions.TestRunner@3bfdc050]" name="tearDownClass" is-config="true" duration-ms="86" started-at="2018-05-14T23:59:44Z" finished-at="2018-05-14T23:59:44Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Core.TestRunner@4dfa3a9d]" name="tearDownClass" is-config="true" duration-ms="239" started-at="2018-05-15T20:58:35Z" finished-at="2018-05-15T20:58:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- stepDefinitions.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Core.TestRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- MailTracker Test Suite -->
 </testng-results>
