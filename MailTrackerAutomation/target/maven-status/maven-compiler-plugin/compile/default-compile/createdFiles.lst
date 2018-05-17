@@ -1,0 +1,16 @@
+Helper\EmailHelper.class
+Core\WebDriverConstants.class
+Helper\LogHelper.class
+pageObjects\Button.class
+pageObjects\HtmlTable.class
+Core\WebDriverFactory.class
+Core\BaseElement$SelectBy.class
+Core\BasePage.class
+mailTrackerPages\CustomerAdministrationPage.class
+mailTrackerPages\MailOutPackagesPage.class
+pageObjects\TextBox.class
+pageObjects\DropDown.class
+pageObjects\Lable.class
+mailTrackerPages\AddViewEditCustomerPage.class
+Helper\DataHelper.class
+Core\BaseElement.class
